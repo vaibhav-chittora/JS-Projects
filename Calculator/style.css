@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #0a0a0a,#3a4452);
+    color: #ffffff;
+}
+.calculator{
+    text-align: center;
+    border: 1px solid #717377;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115,119 , 1) ;
+}
+input{
+    outline: white;
+    border: 0.5px solid white;
+    border-radius: 15px;
+    width: 320px;
+    padding: 15px;
+    margin: 15px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.2);
+    font-size: 25px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+input::placeholder{
+    color: #ffffff;
+
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 23px;
+    border: 1px solid #717377;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+/* .ACbtn{
+    border: none;
+    width: 140px;
+    height: 60px;
+    margin: 10px;
+    font-size: 23px;
+    border: 1px solid #717377;
+    border-radius: 30px;
+    background: transparent;
+    color: #ffffff;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+} */
+
+.equalbtn{
+    background-color: #fb7c14;
+}
+.operator{
+    color: #6dee0a;
+}
