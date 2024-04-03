@@ -20,7 +20,6 @@ form.addEventListener('submit', function (e) {
     else if (weight >= 75) {
         results.innerHTML = `You are Over Weight, Better luck next time`
     }
-
     else {
         const BMI = (weight / ((height * height) / 10000)).toFixed(2)
         results.innerHTML = ` BMI = ${BMI}`
