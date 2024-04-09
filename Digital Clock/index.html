@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Cedarville+Cursive&display=swap');
+        body {
+            font-family:  "Bungee Spice", cursive;
+            font-weight: 400;
+            background-color: #212121;
+            color: white;
+        }
+
+        #box{
+            height: 500px;
+            border: 1px solid grey;
+            border-radius: 25px;
+            box-shadow: 0 0 10px rgb(235, 231, 231);
+            width: 500px;
+            margin: 100px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #clock{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            font-size: 2rem;
+            height: 80px;
+            width: 200px;
+            background-color: #212121;
+            box-shadow: 0 0 10px rgba(211, 162, 84, 0.735);
+            border: 1px solid orange;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <h1>Digital - Clock</h1>
+        <div id="clock"></div>
+
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
